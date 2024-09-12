@@ -12,7 +12,6 @@ class CityPrevisions {
   static CityPrevisions fromJson(dynamic json) {
     // Parser la date du JSON
     DateTime parsedDate = DateTime.parse(json['date']);
-    // Formater la date au format dd/MM/yyyy
 
     // Retourner une nouvelle instance de CityPrevisions avec la date formatée
     return CityPrevisions(
